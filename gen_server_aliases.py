@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import yaml
 
 setup_data = "/root/openstack-configs/setup_data.yaml"
