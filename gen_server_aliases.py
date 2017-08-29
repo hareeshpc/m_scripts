@@ -26,3 +26,5 @@ with open(setup_data, 'r') as stream, open("/root/.bashrc", "a") as bashrc:
 			key+=1
 	except yaml.YAMLError as exc:
 		print(exc)
+
+print "Relogin for aliases to take effect or simply source ~/.bashrc"
