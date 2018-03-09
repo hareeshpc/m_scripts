@@ -17,6 +17,6 @@ fi
 
 for name in $servers; do
    echo  "${name}:"
-   ssh ${name} ${command}
+   ssh -o StrictHostKeyChecking=no ${name} ${command}
    echo "============================="
 done
